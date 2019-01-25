@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Query component <Product /> should render products 1`] = `
+<div>
+  <h3>
+    Test
+  </h3>
+  <ul />
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+      <label
+        htmlFor="reseller"
+      >
+        Reseller: 
+      </label>
+      <input
+        name="reseller"
+        type="text"
+      />
+    </p>
+    <p>
+      <label
+        htmlFor="price"
+      >
+        Price: 
+      </label>
+      <input
+        name="price"
+        type="text"
+      />
+    </p>
+    <button
+      type="submit"
+    >
+      Add offer
+    </button>
+  </form>
+</div>
+`;

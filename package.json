@@ -1,0 +1,32 @@
+{
+  "name": "react-apollo-testing",
+  "version": "1.0.0",
+  "description": "Basic example on how to test react-apollo apps",
+  "keywords": [
+    "react-apollo",
+    "react",
+    "testing",
+    "graphql"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "apollo-boost": "0.1.7",
+    "easygraphql-tester": "3.1.0",
+    "graphql": "latest",
+    "graphql-tag": "2.9.2",
+    "graphql-tools": "4.0.4",
+    "react": "16.3.2",
+    "react-apollo": "2.1.4",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "16.4.0",
+    "waait": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
