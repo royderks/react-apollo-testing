@@ -11,7 +11,7 @@
   "main": "src/index.js",
   "dependencies": {
     "apollo-boost": "0.1.7",
-    "easygraphql-tester": "3.1.0",
+    "easygraphql-tester": "4.1.1",
     "graphql": "latest",
     "graphql-tag": "2.9.2",
     "graphql-tools": "4.0.4",
