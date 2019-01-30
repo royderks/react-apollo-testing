@@ -17,7 +17,7 @@ describe("Test the queries in <Product />", () => {
   });
 
   it("Should return valid data types", () => {
-    const { products } = tester.mock(GET_PRODUCTS_QUERY);
+    const { data: { products } } = tester.mock(GET_PRODUCTS_QUERY);
 
     expect(Array.isArray(products)).toBe(true);
   });
