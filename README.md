@@ -1,5 +1,5 @@
 # react-apollo-testing
-Code example for FOSDEM 2019
+Code example for Testing GraphQL/React Applications
 
 ## About
 
