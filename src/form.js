@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Mutation } from "react-apollo";
 import gql from "graphql-tag";
@@ -14,9 +15,8 @@ export const ADD_OFFER_MUTATION = gql`
 
 export default ({ productId, refetch }) => (
   <Mutation mutation={ADD_OFFER_MUTATION}>
-    {(addOffer, { loading, error, data }) => {
+    {(addOffer, { loading, data }) => {
       if (loading) return <p>Loading...</p>;
-      if (error) return <p>Error :(</p>;
       if (data) return <p>Added!</p>;
 
       let resellerInput = React.createRef();

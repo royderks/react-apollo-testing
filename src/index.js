@@ -6,7 +6,7 @@ import { ApolloProvider } from "react-apollo";
 import Products from "./products";
 
 const client = new ApolloClient({
-  uri: "https://qvo03x069.sse.codesandbox.io/graphql"
+  uri: "https://50m91p16rp.sse.codesandbox.io/graphql"
 });
 
 render(

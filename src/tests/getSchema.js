@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import { introspectSchema } from "graphql-tools";
 
 const link = new HttpLink({
-  uri: "https://qvo03x069.sse.codesandbox.io/graphql",
+  uri: "https://50m91p16rp.sse.codesandbox.io/graphql",
   fetch
 });
 
