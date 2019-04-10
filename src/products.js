@@ -2,7 +2,7 @@ import React from "react";
 import { Query } from "react-apollo";
 import gql from "graphql-tag";
 
-import Form from "./form.js";
+import Form from "./Form.js";
 
 export const GET_PRODUCTS_QUERY = gql`
   {
